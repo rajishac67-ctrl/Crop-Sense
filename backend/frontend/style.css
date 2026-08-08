@@ -1,0 +1,80 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eaf8ea;
+}
+
+.container{
+width:90%;
+max-width:900px;
+margin:40px auto;
+}
+
+header{
+text-align:center;
+margin-bottom:30px;
+}
+
+header h1{
+color:#1b5e20;
+font-size:40px;
+}
+
+header p{
+color:#666;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 8px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+color:#777;
+margin-bottom:15px;
+}
+
+.card h1{
+font-size:50px;
+color:#2e7d32;
+}
+
+.card h2{
+font-size:30px;
+}
+
+.progressBox{
+margin-top:40px;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 8px 15px rgba(0,0,0,.1);
+}
+
+.progress{
+height:35px;
+background:#ddd;
+border-radius:30px;
+overflow:hidden;
+}
+
+#bar{
+width:0%;
+height:100%;
+background:#43a047;
+transition:.5s;
+}
