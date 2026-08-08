@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "POCO M6 Pro 5G";
-const char* password = "raji1001 ";
+const char* ssid = "your_wifi_name";
+const char* password = "your_wifi_password ";
 
 const char* serverName = "http://10.28.232.80:5000/data";
 
